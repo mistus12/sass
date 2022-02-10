@@ -1,0 +1,25 @@
+@media  (min-width: 481px) and (max-width: 600px ){
+    
+    .grid-container{
+        header {
+            .header {
+                #nav-menu {
+                    
+                    nav {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media  (min-width: 1201px) {
+    .menu-desplegable {
+        display: none;
+    }
+}

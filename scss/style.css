@@ -1,0 +1,278 @@
+/*asdadsasdasd*/
+* {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*@media  (min-width: 481px) and (max-width: 600px ){
+    
+    
+                #nav-menu {
+                    display: none;
+                    nav {
+                        a {
+                            color: red;
+                        }
+                    }
+                }
+            
+}
+
+
+
+
+
+@media  (min-width: 1201px) {
+    .menu-desplegable {
+        // display: none;
+    }
+}*/
+.grid-container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+      grid-template-areas: 'encabezado' 'principal' 'titulo-redes' 'redes-area';
+}
+
+.grid-container header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: encabezado;
+}
+
+.grid-container header .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid-container header .header #logo a h5 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: 30px;
+  color: black;
+}
+
+.grid-container header .header #nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+}
+
+.grid-container header .header #nav-menu nav a {
+  margin: 1.7em;
+  color: black;
+}
+
+.grid-container header .header #nav-menu nav a:hover {
+  background-color: #cccccc;
+  padding: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.grid-container .index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 2em;
+}
+
+.grid-container .index main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: principal;
+  margin-left: 5%;
+}
+
+.grid-container .index main .imagen-principal {
+  width: 90%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url("../images/ganado.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin-left: 5%;
+  border-radius: 15px;
+}
+
+.grid-container .index main .imagen-principal h1 {
+  margin-top: 5em;
+  margin-right: 2em;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 3.5em;
+  color: #C34C17;
+}
+
+.grid-container .index main .mejor-opcion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2em;
+}
+
+.grid-container .index main .mejor-opcion h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3em;
+}
+
+.grid-container .index main .mejor-opcion .galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.grid-container .index main .mejor-opcion .galeria img {
+  width: 35vw;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.grid-container .index h3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: titulo-redes;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2em;
+  font-size: 3em;
+}
+
+.grid-container .index footer {
+  grid-area: footer;
+  margin-top: 3em;
+  width: 100%;
+  height: 15em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 10%;
+  margin-left: 5%;
+}
+
+.grid-container .index footer iframe {
+  height: 15em;
+  width: 15em;
+  margin-left: 3em;
+}
+
+.grid-container .index footer .contact-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.grid-container .index footer .contact-redes a img {
+  width: 3em;
+  height: 3em;
+  -webkit-filter: brightness(1.8);
+          filter: brightness(1.8);
+  mix-blend-mode: multiply;
+}
+
+.grid-container .index .derecho {
+  margin-top: 1em;
+  width: 100%;
+  font-size: 1em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

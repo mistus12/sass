@@ -1,0 +1,591 @@
+*{  
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/* .grid-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 'encabezado'
+    'principal'
+    'titulo-redes'
+    'redes-area';
+    
+} */
+
+/* main {
+    grid-area: principal;
+} */
+
+/* h3 {
+    grid-area: titulo-redes;
+} */
+
+.redes {
+    grid-area: redes-area;
+}
+/* .index {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+} */
+
+
+/* #logo a h5 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: black;
+    
+} */
+
+/* .imagen-principal {
+    width: 90%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url("../images/ganado.jpeg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 5%;
+    border-radius: 15px;
+} */
+
+
+/* .principal-h1 {
+    margin-top: 5em;
+    margin-right: 2em;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 3.5em;
+    color: #C34C17;
+    
+} */
+
+/* .index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+/* .header {
+    grid-area: encabezado;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* #nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+    padding: 2%; 
+    
+    
+    
+
+} */
+
+/* #nav-menu a {
+    margin: 1.7em;
+    color: black;
+    
+    
+} */
+
+/* #nav-menu a:hover {
+    background-color: rgb(204, 204, 204);
+    padding: 3px;
+    transition: 0.3s;
+    border-radius: 3px;
+    
+} */
+
+/* .mejor-opcion {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+} */
+/* .mejor-opcion h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+
+
+} */
+
+ 
+
+/* .galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+    width: 100%;
+} */
+
+/* .galeria img {
+    width: 35vw;
+    margin: 10px;
+    border-radius: 8px;
+} */
+
+/*FOOTER*/
+/*.redes {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2em;
+    font-size: 3em; 
+}*/
+/* #pie {
+    margin-top: 3em;
+    width: 100%;
+    height: 15em;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+} */
+/* footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+} */
+
+/* footer iframe {
+    height: 15em;
+    width: 15em;
+    margin-left: 3em;
+} */
+
+
+
+/* 
+.instagram {
+    width: 3em;
+    height: 3em;
+    filter: brightness(1.8);
+    mix-blend-mode: multiply;
+}
+
+.facebook {
+    filter: brightness(1.8);
+    mix-blend-mode: multiply;
+    width: 3em;
+    height: 3em;
+    
+}
+
+.whattsapp {
+    filter: brightness(1.8);
+    mix-blend-mode: multiply;
+    width: 3em;
+    height: 3em;
+
+} */
+
+
+
+
+
+/* .contact-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+/* .derecho {
+    margin-top: 1em;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+} */
+
+/*NOSOTROS */
+
+#nosotros-main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1em;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/ganado-nosotros.jpeg");
+}
+
+
+
+.nosotros-h1 {
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 1em;
+    color: #C34C17;
+}
+
+#nosotros-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
+#nosotros-text p{
+    text-align: center;
+    width: 100%;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+
+/*ELEGIRNOS INDEX*/
+.elegirnos-tittle {
+    width: 100%;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+
+}
+.elegirnos-tittle h1{
+    width: auto;
+}
+
+.elegirnos-principal {
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.truck-inside{
+    width: 65%;
+
+}
+
+.elegirnos-p {
+    width: 100%;
+}
+.elegirnos-p p {
+    text-align: center;
+}
+
+
+/*CONTACTO INDEX*/
+
+.contacto-redes {
+    width: 100%;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-redes img {
+    width: 35em;
+    margin-right: 6em;
+}
+
+.contactanos{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactanos-form{
+    width: 35em;
+}
+.contact-imagen img{
+    width: 35em;
+    height: auto;
+}
+
+.contact-p {
+    width: 100%;
+}
+
+.contact-p p {
+    text-align: center;
+    font-size: 2em;
+}
+.map-phone{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.number-phone {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+.number-phone p {
+    font-size: 2em;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*KILOMETROS INDEX*/
+.titulo-kilometros {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.p-kilometros {
+    width: 100%;
+    padding: 3em;
+}
+
+.p-kilometros p {
+    text-align: center;
+}
+
+@media  (min-width: 481px) and (max-width: 600px ){
+    /* HEADER */
+    #nav-menu{
+        display: none;
+    }
+    .icon-text{
+        display: none;
+    }
+
+    .imagen-principal{
+        width: 100%;
+        height: 20em;
+    }
+    .principal-h1 {
+        margin-top: 0em;
+        margin-right: 0em;
+        font-size: 2em;
+    }
+    .index {
+        padding-top: 4rem;
+    }
+    .mejor-opcion h2 {
+        text-align: center;
+    }
+    
+    
+    /*FOOTER*/
+    #pie {
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer iframe {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    .contact-redes{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+    .derecho {
+        margin-top: 1rem;
+    }
+}
+@media  (min-width: 320px) and (max-width: 480px ) {
+    #nav-menu{
+        display: none;
+    }
+    .icon-text{
+        display: none;
+    }
+
+    .imagen-principal{
+        height: 20em;
+    }
+    .principal-h1 {
+        font-size: 2em;
+    }
+    .index {
+        padding-top: 4rem;
+    }
+    .mejor-opcion h2 {
+        text-align: center;
+    }
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .galeria img {
+        width: 75%;
+        margin: 10px;
+    }
+    
+    
+    /*FOOTER*/
+    #pie {
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer iframe {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    .contact-redes{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+    .derecho {
+        margin-top: 1rem;
+    }
+
+}
+
+@media  (min-width: 481px) and (max-width: 600px ){
+    /* HEADER */
+    #nav-menu{
+        display: none;
+    }
+    .icon-text{
+        display: none;
+    }
+
+    .imagen-principal{
+        width: 90%;
+        height: 20em;
+    }
+    .principal-h1 {
+        font-size: 2em;
+    }
+    .index {
+        padding-top: 4rem;
+    }
+    .mejor-opcion h2 {
+        text-align: center;
+    }
+    
+    
+    /*FOOTER*/
+    #pie {
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer iframe {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    .contact-redes{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+    .derecho {
+        margin-top: 1rem;
+    }
+}
+@media  (min-width: 601px) and (max-width: 1200px ) {
+    #nav-menu{
+        display: none;
+    }
+    .icon-text{
+        display: none;
+    }
+
+    .imagen-principal{
+        width: 90%;
+        height: 35em;
+    }
+    .principal-h1 {
+        font-size: 2em;
+    }
+    .index {
+        padding-top: 4rem;
+    }
+    .mejor-opcion h2 {
+        text-align: center;
+    }
+    
+    
+    /*FOOTER*/
+    #pie {
+        margin-left: 1%;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer iframe {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
+    }
+    
+    h3 {
+        text-align: center;
+    }
+    .contact-redes{
+        display: flex;
+        flex-direction: row;
+        padding-top: 1rem;
+    }
+    .derecho {
+        margin-top: 1rem;
+    }
+
+}
+@media  (min-width: 1201px) {
+    .menu-desplegable {
+        display: none;
+    }
+}
