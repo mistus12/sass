@@ -222,7 +222,7 @@
 } */
 
 /*NOSOTROS */
-
+/* 
 #nosotros-main {
     width: 100%;
     height: 800px;
@@ -233,50 +233,50 @@
     background-position: center;
     background-size: cover;
     background-image: url("../images/ganado-nosotros.jpeg");
-}
+} */
 
 
 
-.nosotros-h1 {
+/* .nosotros-h1 {
     font-family: 'Luxurious Roman', cursive;
     font-size: 1em;
     color: #C34C17;
-}
+} */
 
-#nosotros-text {
+/* #nosotros-text {
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 1.4em;
-}
-#nosotros-text p{
+} */
+/* #nosotros-text p{
     text-align: center;
     width: 100%;
     margin-left: 4em;
     margin-right: 4em;
-}
+} */
 
 
 /*ELEGIRNOS INDEX*/
-.elegirnos-tittle {
+/* .elegirnos-tittle {
     width: 100%;
     padding-top: 1em;
     display: flex;
     justify-content: center;
 
-}
-.elegirnos-tittle h1{
+} */
+/* .elegirnos-tittle h1{
     width: auto;
 }
 
-.elegirnos-principal {
+/* .elegirnos-principal {
     width: 100%;
     padding-top: 2em;
     display: flex;
     justify-content: center;
-}
+} */
 
-.truck-inside{
+/* .truck-inside{
     width: 65%;
 
 }
@@ -286,34 +286,34 @@
 }
 .elegirnos-p p {
     text-align: center;
-}
+} */ 
 
 
 /*CONTACTO INDEX*/
 
-.contacto-redes {
+/* .contacto-redes {
     width: 100%;
     height: 35em;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.contacto-redes img {
+/* .contacto-redes img {
     width: 35em;
     margin-right: 6em;
-}
+} */
 
-.contactanos{
+/* .contactanos{
     width: 100%;
     height: 35em;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.contactanos-form{
+} */
+/* .contactanos-form{
     width: 35em;
-}
+} */
 .contact-imagen img{
     width: 35em;
     height: auto;
@@ -349,7 +349,7 @@ footer {
 }
 
 /*KILOMETROS INDEX*/
-.titulo-kilometros {
+/* .titulo-kilometros {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -362,7 +362,7 @@ footer {
 
 .p-kilometros p {
     text-align: center;
-}
+} */
 
 @media  (min-width: 481px) and (max-width: 600px ){
     /* HEADER */

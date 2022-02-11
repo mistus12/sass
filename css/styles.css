@@ -1,9 +1,7 @@
 /*asdadsasdasd*/
 * {
-  list-style: none;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
@@ -15,49 +13,51 @@
   .menu-desplegable {
     display: none; } }
 
-.grid-container {
+body .grid-container {
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-areas: 'encabezado' 'principal' 'titulo-redes' 'redes-area'; }
-  .grid-container header {
+  grid-template-areas: 'encabezado' 'principal' 'titulo-redes' 'redes-area';
+  background-color: #f0f0f0; }
+  body .grid-container header {
     grid-area: encabezado; }
-    .grid-container header .header {
+    body .grid-container header .header {
       width: 100%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
-      align-items: center; }
-      .grid-container header .header #logo a h5 {
+      align-items: center;
+      background-color: #b6b6b6; }
+      body .grid-container header .header #logo a h5 {
         margin-top: 20px;
         margin-left: 40px;
         font-size: 30px;
         color: black; }
-      .grid-container header .header #nav-menu {
+      body .grid-container header .header #nav-menu {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         margin-right: 20px;
         align-items: center;
         padding: 2%; }
-        .grid-container header .header #nav-menu nav a {
+        body .grid-container header .header #nav-menu nav a {
           margin: 1.7em;
           color: black; }
-          .grid-container header .header #nav-menu nav a:hover {
+          body .grid-container header .header #nav-menu nav a:hover {
             background-color: #cccccc;
             padding: 3px;
             transition: 0.3s;
             border-radius: 3px; }
-  .grid-container .index {
+  body .grid-container .index {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 2em; }
-    .grid-container .index main {
+    body .grid-container .index main {
       grid-area: principal;
       margin-left: 5%; }
-      .grid-container .index main .imagen-principal {
+      body .grid-container .index main .imagen-principal {
         width: 90%;
         height: 700px;
         display: flex;
@@ -68,35 +68,35 @@
         background-size: cover;
         margin-left: 5%;
         border-radius: 15px; }
-        .grid-container .index main .imagen-principal h1 {
+        body .grid-container .index main .imagen-principal h1 {
           margin-top: 5em;
           margin-right: 2em;
           font-family: 'Luxurious Roman', cursive;
           font-size: 3.5em;
           color: #C34C17; }
-      .grid-container .index main .mejor-opcion {
+      body .grid-container .index main .mejor-opcion {
         display: flex;
         width: 100%;
         flex-direction: column;
         align-items: center;
         margin-top: 2em; }
-        .grid-container .index main .mejor-opcion h2 {
+        body .grid-container .index main .mejor-opcion h2 {
           display: flex;
           flex-direction: column;
           justify-content: center;
           font-size: 3em; }
-        .grid-container .index main .mejor-opcion .galeria {
+        body .grid-container .index main .mejor-opcion .galeria {
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
           margin-top: 2em;
           justify-content: center;
           width: 100%; }
-          .grid-container .index main .mejor-opcion .galeria img {
+          body .grid-container .index main .mejor-opcion .galeria img {
             width: 35vw;
             margin: 10px;
             border-radius: 8px; }
-    .grid-container .index h3 {
+    body .grid-container .index h3 {
       grid-area: titulo-redes;
       display: flex;
       justify-content: center;
@@ -104,7 +104,7 @@
       font-family: sans-serif Georgia, 'Times New Roman', Times, serif;
       margin-top: 2em;
       font-size: 3em; }
-    .grid-container .index footer {
+    body .grid-container .index footer {
       grid-area: footer;
       margin-top: 3em;
       width: 100%;
@@ -116,21 +116,164 @@
       flex-wrap: wrap;
       margin-left: 10%;
       margin-left: 5%; }
-      .grid-container .index footer iframe {
+      body .grid-container .index footer iframe {
         height: 15em;
         width: 15em;
         margin-left: 3em; }
-      .grid-container .index footer .contact-redes {
+      body .grid-container .index footer .contact-redes {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly; }
-        .grid-container .index footer .contact-redes a img {
+        body .grid-container .index footer .contact-redes a img {
           width: 3em;
           height: 3em;
           filter: brightness(1.8);
           mix-blend-mode: multiply; }
-    .grid-container .index .derecho {
+    body .grid-container .index .derecho {
       margin-top: 1em;
       width: 100%;
       font-size: 1em;
       text-align: center; }
+
+body .grid-container .index .nosotros-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px; }
+  body .grid-container .index .nosotros-container #nosotros-main {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/ganado-nosotros.jpeg");
+    background-repeat: no-repeat;
+    border-radius: 15px; }
+    body .grid-container .index .nosotros-container #nosotros-main .nosotros-h1 h1 {
+      font-family: 'Luxurious Roman', cursive;
+      font-size: 3em;
+      color: #C34C17; }
+  body .grid-container .index .nosotros-container #nosotros-text {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em; }
+    body .grid-container .index .nosotros-container #nosotros-text #nosotros-text p {
+      text-align: center;
+      margin-left: 4em;
+      margin-right: 4em; }
+
+/*   ELEGIRNOS INDEX   */
+body .grid-container .index main .titulo-kilometros {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  body .grid-container .index main .titulo-kilometros h1 {
+    width: 60%;
+    text-align: center; }
+
+body .grid-container .index main .elegirnos-tittle {
+  width: 100%;
+  padding-top: 1em;
+  display: flex;
+  justify-content: center; }
+
+body .grid-container .index main .elegirnos-principal {
+  width: 100%;
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px; }
+  body .grid-container .index main .elegirnos-principal img {
+    width: 80%;
+    border-radius: 15px; }
+
+body .grid-container .index main .elegirnos-p p {
+  text-align: center; }
+
+/* KILOMETROS INDEX*/
+body .grid-container .index .p-kilometros {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+  body .grid-container .index .p-kilometros p {
+    width: 40%;
+    display: flex;
+    align-items: center; }
+  body .grid-container .index .p-kilometros img {
+    width: 40%;
+    height: 30em; }
+
+/*   CONTACTANOS INDEX*/
+body .grid-container .index .contacto-redes {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .grid-container .index .contacto-redes .contacto-image {
+    width: 35em;
+    margin-right: 6em; }
+  body .grid-container .index .contacto-redes .cont-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%; }
+    body .grid-container .index .contacto-redes .cont-redes p {
+      font-size: 2em; }
+    body .grid-container .index .contacto-redes .cont-redes .contact-redes {
+      display: flex;
+      justify-content: space-around;
+      width: 50%; }
+      body .grid-container .index .contacto-redes .cont-redes .contact-redes a {
+        width: 3em;
+        height: 3em; }
+        body .grid-container .index .contacto-redes .cont-redes .contact-redes a img {
+          width: 3em;
+          height: 3em;
+          filter: brightness(1.8);
+          mix-blend-mode: multiply; }
+    body .grid-container .index .contacto-redes .cont-redes .number-phone {
+      display: flex;
+      align-items: center; }
+      body .grid-container .index .contacto-redes .cont-redes .number-phone img {
+        width: 4em;
+        height: 4em; }
+      body .grid-container .index .contacto-redes .cont-redes .number-phone p {
+        margin-left: 1em; }
+
+body .grid-container .index .contactanos {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  body .grid-container .index .contactanos .contactanos-form {
+    width: 35em; }
+  body .grid-container .index .contactanos .contact-imagen img {
+    width: 35em;
+    height: auto; }
+
+body .grid-container .index .contact-p {
+  width: 100%; }
+  body .grid-container .index .contact-p p {
+    text-align: center;
+    font-size: 2em; }
+
+body .grid-container .index .map-phone {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  body .grid-container .index .map-phone .number-phone {
+    display: flex;
+    align-items: center;
+    margin-left: 2em; }
+    body .grid-container .index .map-phone .number-phone p {
+      font-size: 2em; }
+
+body .grid-container .index footer {
+  height: 2em; }
