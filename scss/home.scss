@@ -123,10 +123,59 @@ body {
                         margin-top: 2em;
                         justify-content: center;
                         width: 100%;
-                        img {
+                        .truck1 {
                             width: 35vw;
+                            height: 17.75em;
                             margin: 10px;
                             border-radius: 8px;
+                            // background-image: url("../images/truck1.jpg");
+                            background-position: center;
+                            img {
+                                width: 35vw;
+                                height: 17.75em;
+                                border-radius: 8px;
+                            }
+
+                        }
+                        .truck2 {
+                            width: 35vw;
+                            height: 17.75em;
+                            margin: 10px;
+                            border-radius: 8px;
+                            background-image: url("../images/truck2.jpg");
+                            background-position: cover;
+                        }
+                        .truck3 {
+                            width: 35vw;
+                            height: 17.75em;
+                            margin: 10px;
+                            border-radius: 8px;
+                            background-image: url("../images/truck3.jpg");
+                            background-position: center;
+                        }
+                        .truck4 {
+                            width: 35vw;
+                            height: 17.75em;
+                            margin: 10px;
+                            border-radius: 8px;
+                            background-image: url("../images/truck4.jpg");
+                            background-position: cover;
+                        }
+                        .ganado5 {
+                            width: 35vw;
+                            height: 17.75em;
+                            margin: 10px;
+                            border-radius: 8px;
+                            background-image: url("../images/ganado5.jpeg");
+                            background-position: center;
+                        }
+                        .ganado6 {
+                            width: 35vw;
+                            height: 17.75em;
+                            margin: 10px;
+                            border-radius: 8px;
+                            background-image: url("../images/ganado6.jpeg");
+                            background-position: center;
                         }
                     }
                 }
@@ -391,7 +440,7 @@ body {
                     }
                 }
             }
-            footer {
+            .footer-contacto {
                 height: 2em;
             }
         }

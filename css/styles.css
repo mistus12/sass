@@ -92,10 +92,51 @@ body .grid-container {
           margin-top: 2em;
           justify-content: center;
           width: 100%; }
-          body .grid-container .index main .mejor-opcion .galeria img {
+          body .grid-container .index main .mejor-opcion .galeria .truck1 {
             width: 35vw;
+            height: 17.75em;
             margin: 10px;
-            border-radius: 8px; }
+            border-radius: 8px;
+            background-position: center; }
+            body .grid-container .index main .mejor-opcion .galeria .truck1 img {
+              width: 35vw;
+              height: 17.75em;
+              border-radius: 8px; }
+          body .grid-container .index main .mejor-opcion .galeria .truck2 {
+            width: 35vw;
+            height: 17.75em;
+            margin: 10px;
+            border-radius: 8px;
+            background-image: url("../images/truck2.jpg");
+            background-position: cover; }
+          body .grid-container .index main .mejor-opcion .galeria .truck3 {
+            width: 35vw;
+            height: 17.75em;
+            margin: 10px;
+            border-radius: 8px;
+            background-image: url("../images/truck3.jpg");
+            background-position: center; }
+          body .grid-container .index main .mejor-opcion .galeria .truck4 {
+            width: 35vw;
+            height: 17.75em;
+            margin: 10px;
+            border-radius: 8px;
+            background-image: url("../images/truck4.jpg");
+            background-position: cover; }
+          body .grid-container .index main .mejor-opcion .galeria .ganado5 {
+            width: 35vw;
+            height: 17.75em;
+            margin: 10px;
+            border-radius: 8px;
+            background-image: url("../images/ganado5.jpeg");
+            background-position: center; }
+          body .grid-container .index main .mejor-opcion .galeria .ganado6 {
+            width: 35vw;
+            height: 17.75em;
+            margin: 10px;
+            border-radius: 8px;
+            background-image: url("../images/ganado6.jpeg");
+            background-position: center; }
     body .grid-container .index h3 {
       grid-area: titulo-redes;
       display: flex;
@@ -275,5 +316,5 @@ body .grid-container .index .map-phone {
     body .grid-container .index .map-phone .number-phone p {
       font-size: 2em; }
 
-body .grid-container .index footer {
+body .grid-container .index .footer-contacto {
   height: 2em; }

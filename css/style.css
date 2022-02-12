@@ -314,24 +314,24 @@
 /* .contactanos-form{
     width: 35em;
 } */
-.contact-imagen img{
+/* .contact-imagen img{
     width: 35em;
     height: auto;
-}
+} */
 
-.contact-p {
+/* .contact-p {
     width: 100%;
-}
+} */
 
-.contact-p p {
+/* .contact-p p {
     text-align: center;
     font-size: 2em;
-}
-.map-phone{
+} */
+/* .map-phone{
     width: 100%;
     display: flex;
     justify-content: center;
-}
+} */
 
 .number-phone {
     display: flex;
