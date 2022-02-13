@@ -26,7 +26,7 @@
             <div class="header">
 
                 <div id="logo">
-                    <a href="index.html" style="text-decoration:none"><h5>AlexTransportes</h5></a>
+                    <a href="index.html" style="text-decoration:none"><h5 class="tituloH">AlexTransportes</h5></a>
                 </div>
                 <div id="nav-menu">
                     <nav>
@@ -67,7 +67,7 @@
             <main class="main">
                 <div class="imagen-principal">
                     <h1 class="principal-h1">
-                        Alex Transportes
+                        AlexTransportes
                     </h1>
                 </div>
 
@@ -75,21 +75,44 @@
                     <h2> Somos tu mejor opcion para el transporte </h2>
 
                     
-                    <div class="galeria">
-                        <div class="truck1">
-                            <img src="../images/truck1.jpg">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div class="truck2"> 
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="/images/truck-inside.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Contamos con el mejor equipo de trabajo</h5>
+                              <p>Para nuestro equipo el tuyo no es un viaje mas</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <img src="/images/camion.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>El mejor transporte</h5>
+                              <p>El mejor transporte para nuestros clientes</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/truck4.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>A nadie le importa mas tu producto que a nosotros</h5>
+                              <p>Nuestra meta es siempre entregar el viaje en tiempo y forma</p>
+                            </div>
+                          </div>
                         </div>
-                        <div class="truck3"> 
-                        </div>
-                        <div class="truck4"> 
-                        </div>
-                        <div class="ganado5"> 
-                        </div>
-                        <div class="ganado6"> 
-                        </div>
-                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                 </div>
             </main>
             
@@ -106,9 +129,7 @@
                             class="facebook"></a>
                     <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whattsapp.jpg" alt="whattsapp"
                             class="whattsapp"></a>
-
                 </div>
-                
             </footer>
             <h4 class="derecho"> Todos los derechos</h4>
 
