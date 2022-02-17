@@ -1,0 +1,45 @@
+header {
+    grid-area: encabezado;
+    
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #b6b6b6;
+        #logo{
+            a {
+                h5{
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    font-size: 30px;
+                    color: black;
+                }
+            }
+        }
+        #nav-menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-right: 20px;
+            align-items: center;
+            padding: 2%; 
+            nav {
+                a{
+                    margin: 1.7em;
+                    color: black;
+                    &:hover {
+                        background-color: $boxshadow;
+                        padding: 3px;
+                        transition: 0.3s;
+                        border-radius: 3px;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+    }

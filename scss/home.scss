@@ -7,8 +7,12 @@
     padding: 0;
     
 }
-@import "./components/responsive";
-@import "./components/variable";
+@import "./base/responsive";
+@import "./base/variable";
+@import "./base/operaciones";
+@import "./base/mapa";
+
+/* HOME INDEX*/
 body {
     .grid-container{
         width: 100%;
@@ -20,61 +24,8 @@ body {
         'redes-area';
         background-color: rgb(240, 240, 240);
 
+        @import "./components/header";
         
-        
-        header {
-            grid-area: encabezado;
-            
-            .header {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                background-color: #b6b6b6;
-                #logo{
-                    a {
-                        h5{
-                            margin-top: 20px;
-                            margin-left: 40px;
-                            font-size: 30px;
-                            color: black;
-                        }
-                    }
-                }
-                #nav-menu{
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    margin-right: 20px;
-                    align-items: center;
-                    padding: 2%; 
-                    nav {
-                        a{
-                            margin: 1.7em;
-                            color: black;
-                            &:hover {
-                                background-color: $boxshadow;
-                                padding: 3px;
-                                transition: 0.3s;
-                                border-radius: 3px;
-                                
-                            }
-                        }
-                    }
-                }
-                
-            }
-            }
-        
-
-
-
-
-
-
-
         .index {
             display: flex;
             flex-direction: row;
@@ -207,10 +158,11 @@ body {
                 margin-left: 10%;
                 margin-left: 5%;
                 
+                /*Aplicando mapa a los iconos de las redes*/
                 iframe {
-                    height: 15em;
-                    width: 15em;
-                    margin-left: 3em;
+                    height: map-get($map: $iconsRedes, $key: height-icons );
+                    width: map-get($map: $iconsRedes, $key: width-icons );
+                    margin-left: map-get($map: $iconsRedes, $key: margin-left-icons);
                 }
                 .contact-redes {
                     display: flex;
@@ -261,9 +213,9 @@ body {
                     background-image: url("../images/ganado-nosotros.jpeg");
                     background-repeat: no-repeat;
                     border-radius: 15px;
-                    .nosotros-h1{
+                    .nosotros-h2{
                         
-                        h1 {
+                        h2 {
                             font-family: 'Luxurious Roman', cursive;
                             font-size: 3em;
                             color: #C34C17;
@@ -294,15 +246,7 @@ body {
     .grid-container{
         .index{
                 main {
-                    .titulo-kilometros{
-                        width: 100%;
-                        display: flex;
-                        justify-content: center;
-                        h1 {
-                            width: 60%;
-                            text-align: center;
-                        }
-                    }
+                    
                     .elegirnos-tittle {
                         width: 100%;
                         padding-top: 1em;
@@ -335,6 +279,15 @@ body {
 body {
     .grid-container{
         .index{
+            .titulo-kilometros{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                h1 {
+                    width: 60%;
+                    text-align: center;
+                }
+            }
             .p-kilometros{
                 width: 100%;
                 display: flex;
@@ -373,7 +326,7 @@ body {
                     flex-direction: column;
                     justify-content: space-around;
                     height: 65%;
-                    p{
+                    h2{
                         font-size: 2em;
                     }
                     .contact-redes{
@@ -398,7 +351,7 @@ body {
                             width: 4em;
                             height: 4em;
                         }
-                        p {
+                        h3 {
                             margin-left: 1em;
                         }
                     }
@@ -422,7 +375,7 @@ body {
             }
             .contact-p {
                 width: 100%;
-                p {
+                h4 {
                     text-align: center;
                     font-size: 2em;
                 }
@@ -431,14 +384,6 @@ body {
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                .number-phone {
-                    display: flex;
-                    align-items: center;
-                    margin-left: 2em;
-                    p {
-                        font-size: 2em;
-                    }
-                }
             }
             .footer-contacto {
                 height: 2em;
